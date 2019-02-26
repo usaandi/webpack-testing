@@ -1,0 +1,15 @@
+
+Run with npm run 'script name'
+"build":"webpack src/main.js --output dist/bundle.js --mode development",
+Add extra commands
+"watch":"npm run build -- --watch",
+
+if you have webpack configured right you can do
+"build":"webpack",
+
+Babel setup
+https://babeljs.io/setup#installation
+
+webpack --mode=production
+or             development
+Or set it in package.json

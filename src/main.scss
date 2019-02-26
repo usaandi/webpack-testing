@@ -1,0 +1,12 @@
+@import "scss/button";
+
+$primary: white;
+
+body {
+  color: $primary;
+  background-color: green;
+}
+
+.image {
+  background: url('./images/image.png');
+}

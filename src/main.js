@@ -1,6 +1,6 @@
 require('./main.scss');
 import img from "./images/image.png";
-import {log,announce} from "./notification";
+import {log,announce} from "./js/notification";
 
 class Form {
     constructor(){

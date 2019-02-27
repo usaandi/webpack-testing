@@ -9,4 +9,5 @@ Based on https://laracasts.com/series/webpack-for-everyone
 
 Warning see video on outdated ja pidin mõned asjad teistmoodi tegema, et töötaks
 
+# WARNING this project was created as an example! 
 

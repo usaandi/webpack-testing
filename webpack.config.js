@@ -1,5 +1,8 @@
 const path = require("path");
+const webpack = require("webpack");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
+
 module.exports = {
   mode: "development",
   entry: {
@@ -8,6 +11,7 @@ module.exports = {
   watch: true,
   output: {
     path: path.resolve(__dirname, "dist"),
+    publicPath: "/",
     filename: "[name].js"
   },
   module: {
@@ -29,8 +33,7 @@ module.exports = {
               name: "images/[name].[ext]"
             }
           },
-          'img-loader'
-          
+          "img-loader"
         ]
       },
       {
@@ -40,5 +43,8 @@ module.exports = {
       }
     ]
   },
-  plugins: [new MiniCssExtractPlugin("[name].css")]
+  plugins: [
+    new MiniCssExtractPlugin("[name].css"),
+  
+  ]
 };

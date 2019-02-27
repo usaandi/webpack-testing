@@ -3,7 +3,7 @@ npm install
 
 Installi vajalikud Dev depencies
 
-Käivitamiseks npm run dev, mis kompileerib kõik sinu scss ja js failid.
+Käivitamiseks npm start, mis kompileerib kõik sinu scss ja js failid ning alustab serveri localhost:2000 peal.
 
 Based on https://laracasts.com/series/webpack-for-everyone
 
